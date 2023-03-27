@@ -21,11 +21,6 @@ export const ArticleForm: React.FC = () => {
 
   return (
     <Form onSubmit={handleSubmit}>
-      <Form.Group>
-        <Form.Label column="lg" lg={2}>
-          Add Article
-        </Form.Label>
-      </Form.Group>
       <Form.Group className="mb-3" controlId="formBasicTitle">
         <Form.Label>Title</Form.Label>
         <Form.Control name="title" type="text" placeholder="Enter title" />
